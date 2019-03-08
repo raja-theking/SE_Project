@@ -35,6 +35,7 @@ else {
       <input type="submit" value="Search">
 	  </div>
     </form>
+		<a href="logout.php">Logout</a>
 	</div>
   </body>
 </html>
