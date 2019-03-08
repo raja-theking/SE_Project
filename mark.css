@@ -1,0 +1,27 @@
+body{
+background:url(pp.jpg);
+background-size:cover;
+text-align: center;
+}
+.ab{
+  padding-top: 15px;
+color:#e0f0fd;
+font-size: 25px;
+font-family: sans-serif;
+padding-bottom:15px;
+}
+.pp a{
+  color:#e0f0fd;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-decoration:none;
+}
+.pp a:hover{
+  color: #dedeff;
+}
+.qq{
+  border-bottom: 2px solid #9fc2ff;
+  padding:10px;
+  color: #e0f0fd;
+  font-family: sans-serif;
+}
