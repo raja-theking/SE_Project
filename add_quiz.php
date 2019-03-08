@@ -18,10 +18,10 @@ $quiz_id = $_GET['quiz_id'];
  <div class="ques"> Question : <input type="text" name="ques"> <br></div>
           <div class="op">  Options : <br></div>
 		  <div class="opt">
-            1. <input type="text" name="opt1">  <input type="checkbox" name="ans[]" value="1"> <br>
-            2. <input type="text" name="opt2">  <input type="checkbox" name="ans[]" value="2"> <br>
-            3. <input type="text" name="opt3">  <input type="checkbox" name="ans[]" value="3"> <br>
-            4. <input type="text" name="opt4">  <input type="checkbox" name="ans[]" value="4"> <br>
+            1. <input type="text" name="opt1">  <input type="checkbox" class="ll" name="ans[]" value="1"> <br>
+            2. <input type="text" name="opt2">  <input type="checkbox" class="ll" name="ans[]" value="2"> <br>
+            3. <input type="text" name="opt3">  <input type="checkbox" class="ll" name="ans[]" value="3"> <br>
+            4. <input type="text" name="opt4">  <input type="checkbox" class="ll" name="ans[]" value="4"> <br>
             </div>
 			<div class="on"> Right Options: </div>
 	   <div class="box">

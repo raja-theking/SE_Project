@@ -55,6 +55,12 @@ padding: 10px;
 	width:350px;
 	margin:7px;
 }
+.opt ll input{
+	border-color: #9fc2ff;
+	border-style: solid;
+	background: none;
+	width: 300px;
+}
 .on{
 	color:#e0f0fd;
 	font-size:25px;
