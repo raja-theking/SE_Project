@@ -18,6 +18,7 @@ else {
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <body>
+		hii
     <h1>Add Quiz</h1>
     <form action="add_quiz_id.php" method="get">
 			Quiz Info <input type="text" name="quiz_info">
