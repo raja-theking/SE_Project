@@ -52,12 +52,11 @@ $display_block .= "
 }
  ?>
 
-
  <!DOCTYPE html>
 <html>
 <head>
 <title>Quizes</title>
-
+<link rel="stylesheet" href="see.css">
 </head>
 <body>
 

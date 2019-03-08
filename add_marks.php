@@ -83,15 +83,25 @@ $login_res = mysqli_query($con, $quiz_id_sql) or die(mysqli_error($con));
 
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+<link rel="stylesheet" href="mark.css">
 	</head>
 	<body>
 	</br>
+	<div class="qq">
+		<h1> Your Marks </h1>
+	</div>
+<div class="ab">
+ <?php
+                echo "Total marks are ".$total_marks;?>
+</div>
+<div class="pp">
 		<a href="student.php">Go Back</a>
-	</body>
+</div>
+
+</body>
 </html>

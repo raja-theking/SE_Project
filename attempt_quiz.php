@@ -100,11 +100,14 @@ $display_block .= "
 
 ?>
 
+
+<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html>
 <head>
 <title>Quizes</title>
-
+<link rel="stylesheet" href="attempted.css">
 </head>
 <body>
 
@@ -113,16 +116,15 @@ $display_block .= "
 if($ques_no<=$nof){
 echo $display_block;
 }
-else { echo "No more questions";}
+else { echo "No More Questions";}
 ?>
-
 <br>
-Question NO. <br>
+<div style="font-size:30px;color:white;">Question No:<br>
 <?php
 
 for ($i=0; $i<$nof; $i++) {
 	$n = $i+1;
-echo "<a href=\"attempt_quiz.php?ques_no=".$n."&quiz_id=".$_GET['quiz_id']."\">".$n."</a> &nbsp";
+echo "<a href=\"attempt_quiz.php?ques_no=".$n."&quiz_id=".$_GET['quiz_id']."\">".$n."</a>";
 }
 ?>
 <hr>
