@@ -30,7 +30,7 @@
 		}
 
 		else {
-			echo "Wrong Password";
+			echo "Sorry Wrong Password";
 		}
 
 
