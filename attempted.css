@@ -1,0 +1,49 @@
+body{
+  background: url(pp.jpg);
+  background-size: cover;
+}
+h1{
+  font-family: sans-serif;
+  color: #bfddc5;
+  border-bottom: 2px solid #dedeff;
+  margin-bottom: 15px;
+  padding-bottom:20px;
+  padding-top: 30px;
+}
+table th{
+color:#87e4e4;
+text-align:center;
+padding:15px;
+font-size: 20px;
+}
+table td{
+  padding-left: 30px;
+  color: #bfddc5;
+  margin: 15px;
+  font-size: 30px;
+}
+form{
+  color: black;
+  margin: 5px;
+}
+form input{
+  border-color:#9fc2ff;
+  border-style: solid;
+  background:none;
+  color:cyan;
+  box-shadow: 0 5px 25px rgba(0,0,0,.5);
+  padding:5px;
+}
+a{
+  text-align: center;
+  color:#bfddc5;
+  font-size: 40px;
+  padding-left: 120px;
+  font-family: sans-serif;
+  margin-top: : 50px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #dedeff;
+}
