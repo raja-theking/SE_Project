@@ -16,7 +16,7 @@ else {
 			$total_marks = $quiz["marks"];
 		}
 		$_SESSION['quiz_start'] = 'stop';
-    echo "Total marks are ".$total_marks;
+  //  echo "Total marks are ".$total_marks;
   }
 
   else {
