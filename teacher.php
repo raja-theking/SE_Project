@@ -17,21 +17,27 @@ else {
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <body>
-		hii
+ <head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="teach.css">
+</head>
+<body><div class="kunal">
     <h1>Add Quiz</h1>
     <form action="add_quiz_id.php" method="get">
-			Quiz Info <input type="text" name="quiz_info">
-    <select name="stream">
+<div class="textbox">Quiz Info: <input type="text" name="quiz_info"></div>
+ <div class="box">
+ <select name="stream">
+
       <option value="dbms">DBMS</option>
       <option value="os">OS</option>
       <option value="daa">DAA</option>
       <option value="java">Java</option>
-    </select>
+    </select></div>
+	<div class="new">
     <input type="submit" value="Add">
-		<input type="hidden" name="teacher_id" value="<?php echo $_SESSION['id']; ?>">
+		<input type="hidden" name="teacher_id" value="<?php echo $_SESSION['id']; ?>"></div>
     </form>
-
-		<a href="logout.php">Logout</a>
+<a href="logout.php">Logout</a>
+</div>
   </body>
 </html>
