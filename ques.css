@@ -61,27 +61,9 @@ padding: 10px;
 	background: none;
 	width: 300px;
 }
-.on{
-	color:#e0f0fd;
-	font-size:25px;
-	padding:10px;
-}
-.box{
-	width:50px;
-	float:left;
-	padding-left:170px;
-	margin-bottom:50px;
-	}
-.box select{
-	background:#9fc2ff;
-	color:black;
-	padding:5px;
-	width:50px;
-	border:none;
-	box-shadow: 0 5px 25px rgba(0,0,0,.5);
-}
 .new{
-	padding:0px;
+	padding-top: 15px;
+	padding:15px;
 	margin-left:15px;
 	float:left;
 }
