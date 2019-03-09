@@ -37,8 +37,9 @@ else {
     <input type="submit" value="Add">
 		<input type="hidden" name="teacher_id" value="<?php echo $_SESSION['id']; ?>"></div>
     </form>
-
-		<p>or Select a file</p><br>
+		<div class="sam">
+		<p> Or </p>
+		<h1>Select a file</h1><br>
 		<form action="add_quiz_id.php" method="get">
 			Quiz Info: <input type="text" name="quiz_info">
 			<select name="stream">
