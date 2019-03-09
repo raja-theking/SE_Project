@@ -44,9 +44,9 @@ else {
 		$ans2 = nl2br(stripcslashes($quiz["ans2"]));
 		$ans3 = nl2br(stripcslashes($quiz["ans3"]));
 		$ans4 = nl2br(stripcslashes($quiz["ans4"]));
-    $multi = nl2br(stripcslashes($quiz["multi"]));
+    $multi = $quiz["multi"];
 }
-   if ($multi=="no") {
+   if ($multi=="no" or $multi=="no ") {
 		$display_block .= "
 		<tr>
 			<td>

@@ -15,7 +15,12 @@ else {
 
   while($info = mysqli_fetch_array($login_res)) {
   $quiz_id = $info['quiz_id'];
+  if (!$_GET['upload']) {
   header("Location: add_quiz.php?quiz_id=".$quiz_id."");
+  }
+  else {
+    header("Location: add_file_quiz.php?quiz_id=".$quiz_id."&file=".$_GET['file']);
+  }
   }
 
 }

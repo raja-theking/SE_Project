@@ -37,6 +37,21 @@ else {
     <input type="submit" value="Add">
 		<input type="hidden" name="teacher_id" value="<?php echo $_SESSION['id']; ?>"></div>
     </form>
+
+		<p>or Select a file</p><br>
+		<form action="add_quiz_id.php" method="get">
+			Quiz Info: <input type="text" name="quiz_info">
+			<select name="stream">
+		       <option value="dbms">DBMS</option>
+		       <option value="os">OS</option>
+		       <option value="daa">DAA</option>
+		       <option value="java">Java</option>
+		  </select>
+			<input type="file" name="file">
+			<input type="hidden" name="teacher_id" value="<?php echo $_SESSION['id']; ?>">
+			<input type="hidden" name="upload" value="yes">
+	  	<input type="submit" value="Submit">
+		</form>
 <a href="logout.php">Logout</a>
 </div>
   </body>
