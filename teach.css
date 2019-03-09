@@ -19,6 +19,7 @@ background-size: cover;
 	text-align:center;
 	font-family:initial;
   padding: 10px;
+
 }
 .textbox{
 	color:#e0f0fd;
@@ -68,8 +69,4 @@ background-size: cover;
 	}
 .kunal a:hover{
   color: #dedeff;
-}
-.sam p{
-  padding: 10px;
-  text-align: center;
 }
