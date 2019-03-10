@@ -21,13 +21,13 @@ else {
 <meta charset="utf-8">
 <link rel="stylesheet" href="teach.css">
 </head>
-<body><div class="kunal">
+<body>
+  <div class="kunal">
     <h1>Add Quiz</h1>
     <form action="add_quiz_id.php" method="get">
 <div class="textbox">Quiz Info: <input type="text" name="quiz_info"></div>
  <div class="box">
  <select name="stream">
-
       <option value="dbms">DBMS</option>
       <option value="os">OS</option>
       <option value="daa">DAA</option>
@@ -38,21 +38,30 @@ else {
 		<input type="hidden" name="teacher_id" value="<?php echo $_SESSION['id']; ?>"></div>
     </form>
 
-		<p>or Select a file</p><br>
+<div class="qw">
+		<p>OR</p>
+      <h2>Select a file<h2>
+      </div>
 		<form action="add_quiz_id.php" method="get">
-			Quiz Info: <input type="text" name="quiz_info">
+		<div class="hola">	Quiz Info: <input type="text" name="quiz_info">
 			<select name="stream">
 		       <option value="dbms">DBMS</option>
 		       <option value="os">OS</option>
 		       <option value="daa">DAA</option>
 		       <option value="java">Java</option>
 		  </select>
-			<input type="file" name="file">
-			<input type="hidden" name="teacher_id" value="<?php echo $_SESSION['id']; ?>">
-			<input type="hidden" name="upload" value="yes">
-	  	<input type="submit" value="Submit">
+    </div>
+    <div class="git">
+		<div class="opop"> <input type="file"name="file" class="ram">
+</div>
+    <input type="hidden" name="teacher_id" value="<?php echo $_SESSION['id']; ?>">
+		<input type="hidden" name="upload" value="yes">
+<div class="cool">	<input type="submit" value="Submit">
+</div>
 		</form>
+    </div>
 <a href="logout.php">Logout</a>
+
 </div>
   </body>
 </html>
