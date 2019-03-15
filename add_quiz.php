@@ -14,8 +14,9 @@ $quiz_id = $_GET['quiz_id'];
     </head>
     <body><div class="add">
 	<h1> Please Insert The Question </h1>
-        <form action="add_questions.php" method="get">
- <div class="ques"> Question : <input type="text" name="ques"> <br></div>
+        <form action="add_questions.php" method="get" id="usrform">
+<!--  <div class="ques"> Question : <input type="text" name="ques"> <br></div> -->
+   Enter Question : <br><textarea rows="4" cols="50" name="ques" form="usrform"></textarea>
           <div class="op">  Options : <br></div>
 		  <div class="opt">
             1. <input type="text" class="qq" name="opt1"> <input type="checkbox" class="kk" name="ans[]" value="1"> <br>
