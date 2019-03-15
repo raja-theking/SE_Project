@@ -63,5 +63,6 @@ else {
 <a href="logout.php">Logout</a>
 
 </div>
+<a href="teacher_quizes.php">View Your Quizes</a>
   </body>
 </html>
