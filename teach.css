@@ -52,18 +52,18 @@ background-size: cover;
 	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 }
 .new{
-	margin-top:30px;
-	padding-top:40px;
-padding-left:630px;
+  padding-left:630px;
+  padding-top: 25px;
+  margin-top: 40px;
 }
 .new input{
-	border-color:#9fc2ff;
-	border-style: solid;
-	background:none;
-	color:cyan;
-	box-shadow: 0 5px 25px rgba(0,0,0,.5);
-	padding:5px;
+  background: none;
+  color: cyan;
+  height: 30px;
+  align:center;
+  outline: none;
   cursor: pointer;
+  	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 }
 .new input:hover{
   color: pink;
