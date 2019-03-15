@@ -9,6 +9,7 @@ if (!isset($_SESSION['id']) and !$_GET['quiz_id']) {
 	exit();
 }
 
+
 $students_sql = "SELECT distinct id FROM marks where quiz_id = '".$_GET['quiz_id']."'";
 $students = mysqli_query($con, $students_sql) or die(mysqli_error($con));
 
@@ -20,11 +21,14 @@ $display_block = "
 <th>Marks</th>
 </tr>";
 
+$nota =0;
+
 while ($marks = mysqli_fetch_array($students)) {
     $stud_id = $marks["id"];
 
     $attempt = "SELECT count(*) as nota from marks where quiz_id = '".$_GET['quiz_id']."' and id='".$stud_id."'";
 		$attempt_res = mysqli_query($con, $attempt) or die(mysqli_error($con));
+
 
     	while ($no = mysqli_fetch_array($attempt_res)) {
 				$nota = $no["nota"];
@@ -59,6 +63,13 @@ while ($marks = mysqli_fetch_array($students)) {
      <title></title>
    </head>
    <body>
-     <?php echo $display_block ?>
+     <?php
+     if ($nota>0) {
+       echo $display_block;
+     }
+     else {
+       echo "No attempts yet..";
+     }
+     ?>
    </body>
  </html>
