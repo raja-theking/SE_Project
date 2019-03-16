@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 font-size:20px;
 font-family:sans-serif;
-background: url(pp.jpg)repeat;
+background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 background-size: cover;
 }
 .kunal{
@@ -157,4 +157,13 @@ height: 25px;
   font-weight:lighter;
   padding-left: 30px;
   box-shadow: 0 5px 25px rgba(1,1,1,1.5);
+}
+.aa a{
+  color:Black;
+    text-decoration: none;
+    font-size: 30px;
+    font-style:auto;
+    font-weight:lighter;
+    box-shadow: 0 5px 25px rgba(1,1,1,1.5);
+    float: right;
 }

@@ -61,8 +61,9 @@ else {
 		</form>
     </div>
 <a href="logout.php">Logout</a>
-
-</div>
+<div class="aa">
 <a href="teacher_quizes.php">View Your Quizes</a>
-  </body>
+</div>
+</div>
+</body>
 </html>

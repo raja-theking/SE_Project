@@ -17,6 +17,7 @@ $display_block = "
 <th>Quiz ID</th>
 <th>Quiz Stream</th>
 <th>Quiz Info</th>
+<th>Results</th>
 </tr>";
 
 while ($quizes = mysqli_fetch_array($teacher_quiz)) {
@@ -51,10 +52,14 @@ $display_block .= "
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title> Quiz Results</title>
+		<link rel="stylesheet" href="Res.css">
   </head>
-  <body>
-    <h1 align="center">Your Quizes</h1>
-  <?php echo $display_block; ?>
+<body>
+	<div class="kunal">
+		<h1 align="center">Your Quizes</h1>
+			<?php echo $display_block; ?>
+	</div>
+
   </body>
 </html>

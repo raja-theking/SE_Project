@@ -60,7 +60,8 @@ while ($marks = mysqli_fetch_array($students)) {
  <html lang="en" dir="ltr">
    <head>
      <meta charset="utf-8">
-     <title></title>
+     <title>Results</title>
+		 <a link="stylesheet" href="last.css">
    </head>
    <body>
      <?php
