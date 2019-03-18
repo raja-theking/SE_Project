@@ -1,49 +1,70 @@
 body{
-  background: url(pp.jpg);
-  background-size: cover;
+  background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-attachment: fixed;
 }
-h1{
-  font-family: sans-serif;
-  color: #bfddc5;
-  border-bottom: 2px solid #dedeff;
-  margin-bottom: 15px;
-  padding-bottom:20px;
-  padding-top: 30px;
+table{
+  border: 0px solid black;
 }
 table th{
-color:#87e4e4;
-text-align:center;
-padding:15px;
-font-size: 20px;
+color:black;
+font-size: 30px;
+width: 500px;
+background-color: #C4FCEF;
+border-radius: 10px;
 }
 table td{
-  padding-left: 30px;
   color: #bfddc5;
   margin: 15px;
   font-size: 30px;
+    border: 0px solid black;
+    color: black;
+    padding: 10px;
 }
 form{
-  color: black;
+  color:#009688;
   margin: 5px;
 }
 form input{
   border-color:#9fc2ff;
   border-style: solid;
   background:none;
-  color:cyan;
-  box-shadow: 0 5px 25px rgba(0,0,0,.5);
+  color:grey;
+border-radius: 10px ;
   padding:5px;
+  cursor: pointer;
+  font-size: 18px;
 }
+
 a{
   text-align: center;
-  color:#bfddc5;
+  color:#795548;
   font-size: 40px;
   padding-left: 120px;
   font-family: sans-serif;
-  margin-top: : 50px;
+  margin-top: : 90px;
   text-decoration: none;
 
 }
 a:hover{
-  color: #dedeff;
+  color: black;
+}
+.grid {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #C4FCEF;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #845EC2;
+}
+
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #57636e;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 50px;
 }
