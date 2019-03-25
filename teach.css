@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 font-size:20px;
 font-family:sans-serif;
-  background: linear-gradient(90deg, #355C7D,#6C5B7B,#C06C84);
+background: linear-gradient(90deg, #355C7D,#6C5B7B,#C06C84);
 background-size: cover;
 }
 .kunal{
@@ -36,6 +36,7 @@ background-size: cover;
 	color:cyan;
 	padding:5px;
   width: 200px;
+  font-size: 15px;
 }
 .box{
 	width:100%;
@@ -61,7 +62,6 @@ background-size: cover;
   color: cyan;
   height: 30px;
   align:center;
-  outline: none;
   cursor: pointer;
   	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 }
