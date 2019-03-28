@@ -61,9 +61,10 @@ while ($marks = mysqli_fetch_array($students)) {
    <head>
      <meta charset="utf-8">
      <title>Results</title>
-		 <a link="stylesheet" href="last.css">
+	<link rel="stylesheet" href="last.css">
    </head>
    <body>
+		 <h1> Marks </h1>
      <?php
      if ($nota>0) {
        echo $display_block;

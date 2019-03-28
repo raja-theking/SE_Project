@@ -1,39 +1,36 @@
 body{
 margin: 0;
 padding: 0;
-font-size:20px;
-font-family:sans-serif;
-background: url(pp.jpg)repeat;
-background-size: cover;
+font-size:40px;
+font-family:monospace;
+background: #77A1D3;
 }
 .kunal{
  width: 100%;
-  position:fixed;
-  top: 10%;
-  left: 20%;
-  transform: translate(-20%,-20%);
+position:absolute;
 }
 .kunal h1{
   font-size:35px;
-  color:#bfddc5;
-  padding-top: 40px;
-  font-family:sans-serif;
-  border-bottom: 2px solid #dedeff;
+  color: darkblue;
+  padding-top: 20px;
   margin-bottom: 15px;
-  padding-bottom:20px;
+  padding-bottom:10px;
 }
 table{
 text-align:center;
-color:white;
+color:black;
 width:75%;
 border-collapse:collapse;
 border:0px;
 }
 table th{
-color:#87e4e4;
+color:black;
+font-weight:bold;
+font-size: 50px;
 text-align:center;
 padding:15px;
-background-color:rgba(17, 22, 24, 0.32);
+background-color:cadetblue;
+
 font-size: 20px;
 }
 table td{
@@ -41,11 +38,10 @@ padding: 15px;
 margin: 5px;
 font-family: sans-serif;
 font-size: 17px;
-color: #bfddc5;
+color: black;
 }
 table a{
 color:black;
-font-size:25px;
 text-decoration:none;
 }
 table a:hover{

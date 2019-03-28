@@ -1,12 +1,10 @@
 body{
-  font-family:inline;
-  background: url(pp.jpg);
-  background-size:cover;
+  font-family:monospace;
+background: #77A1D3;
 }
 h1{
 font-size:35px;
-color:#bfddc5;
-font-family:sans-serif;
+color:darkblue;
 border-bottom: 2px solid #dedeff;
 margin-bottom: 15px;
 padding-bottom:20px;
@@ -15,18 +13,22 @@ p{
 color:#bfddc5;
 font-family:sans-serif;
 font-size:18px;
+color: maroon;
 }
 table{
 text-align:center;
 color:white;
 border:0px;
 padding:0px;
+width:75%;
+border-collapse:collapse;
 }
 table th{
-color:#87e4e4;
+color:black;
 text-align:center;
 padding:15px;
-font-size: 20px;
+font-size: 25px;
+background-color:cadetblue;
 }
 table td{
 padding: 15px;

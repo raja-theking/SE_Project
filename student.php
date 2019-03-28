@@ -21,9 +21,13 @@ else {
 	<link rel="stylesheet" href="stu.css">
   </head>
   <body>
-  <div class="sea">
+
       <h1>Search Quiz</h1>
+			<H2> Which Quiz Do You Want To Perform: </h2>
+				<h2> Please Select Here : </h2>
+			  <div class="sea">
     <form action="search.php" method="get">
+
 	<div class="box">
       <select name="stream">
         <option value="dbms">DBMS</option>
@@ -31,7 +35,8 @@ else {
         <option value="daa">DAA</option>
         <option value="java">Java</option>
       </select>
-	  </div><div class="sub">
+	  </div>
+		<div class="sub">
       <input type="submit" value="Search">
 	  </div>
     </form>

@@ -14,7 +14,7 @@ else {
 
 
 	$display_block = "
-	<p align=\"center\">Showing quiz for the stream ".$_GET['stream']."</p>
+	<p align=\"center\">Showing Quiz For The Stream ".$_GET['stream']."</p>
 	<table cellpadding = \"3\" cellspacing = \"1\" border = \"1\" align=\"center\" width=\"50%\">
   <tr>
 	<th>Quizes</th>
@@ -60,7 +60,7 @@ $display_block .= "
 </head>
 <body>
 
-<h1 align="center">Attempt any quiz</h1>
+<h1 align="center">Attempt Any Quiz</h1>
 <?php echo $display_block; ?>
 </body>
 </html>
