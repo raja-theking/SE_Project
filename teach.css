@@ -1,10 +1,7 @@
 body{
 margin: 0;
 padding: 0;
-font-size:20px;
-font-family:sans-serif;
-background: linear-gradient(90deg, #355C7D,#6C5B7B,#C06C84);
-background-size: cover;
+background-image: linear-gradient( 65.5deg,  rgba(23,205,205,1) -15.1%, rgba(23,25,95,1) 71.5% );
 }
 .kunal{
  width: 100%;
@@ -19,42 +16,45 @@ background-size: cover;
 	text-align:center;
   font-stretch:semi-condensed;
   font-weight: lighter;
-	font-family:initial;
-  padding-bottom: 5px;
+  font-size: 25px;
+	font-family:monospace;
+  padding-bottom: 10px;
 }
 .textbox{
-	color:#e0f0fd;
-	padding: 5px 0;
+	color:whitesmoke;
+  padding: 8px 0;
 	margin:5px 0;
 	font-size:20px;
-  padding-left: 450px;
+  font-weight: lighter;
+  font-stretch: condensed;
+  padding-left:460px;
 	}
 .textbox input{
 	border-color:#9fc2ff;
 	border-style: solid;
 	background:none;
 	color:cyan;
-	padding:5px;
-  width: 200px;
+	padding:9px;
+  width: 300px;
   font-size: 15px;
 }
 .box{
 	width:100%;
 	float:left;
 	margin-top:10px;
-	padding-left:540px;
+	padding-left:580px;
 	}
 .box select{
 	background:#9fc2ff;
 	color:black;
-	padding:7px;
-	width:200px;
+	padding:9px;
+	width:235px;
 	border:none;
 	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 }
 .new{
-  padding-left:630px;
-  padding-top: 25px;
+  padding-left:680px;
+  padding-top: 30px;
   margin-top: 40px;
 }
 .new input{
@@ -66,8 +66,7 @@ background-size: cover;
   	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 }
 .new input:hover{
-  color: pink;
-  border: 1px #4caf50;
+  background: rgba(23,25,95,1);
 }
 .kunal a{
 	color:#9fc2ff;
@@ -78,11 +77,13 @@ background-size: cover;
   color: #dedeff;
 }
 .qw p{
-padding-left: 630px;
-padding-top: 5px;
-  font-stretch:semi-condensed;
-  font-weight: lighter;
-  color: #e0f0fd;
+padding-left: 690px;
+padding-top: 10px;
+font-size: 20px;
+text-decoration: underline;
+font-stretch:semi-condensed;
+font-weight: lighter;
+color: #e0f0fd;
 }
 .qw h2{
 padding-left: 590px;
