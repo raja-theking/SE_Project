@@ -23,7 +23,7 @@ else {
 </head>
 <body>
   <div class="kunal">
-    <h1>Add Quiz</h1>
+    <h1>Add Quiz Here</h1>
     <form action="add_quiz_id.php" method="get">
 <div class="textbox">Quiz Info: <input type="text" name="quiz_info"></div>
  <div class="box">

@@ -1,6 +1,4 @@
 body{
-margin: 0;
-padding: 0;
 background-image: linear-gradient( 65.5deg,  rgba(23,205,205,1) -15.1%, rgba(23,25,95,1) 71.5% );
 }
 .kunal{
@@ -12,6 +10,7 @@ background-image: linear-gradient( 65.5deg,  rgba(23,205,205,1) -15.1%, rgba(23,
 }
 .kunal h1{
 	color:#e0f0fd;
+  padding-top: 20px;
 	border-bottom: 2px solid #9fc2ff;
 	text-align:center;
   font-stretch:semi-condensed;
@@ -77,37 +76,41 @@ background-image: linear-gradient( 65.5deg,  rgba(23,205,205,1) -15.1%, rgba(23,
   color: #dedeff;
 }
 .qw p{
-padding-left: 690px;
-padding-top: 10px;
-font-size: 20px;
+padding-left: 680px;
+font-size: 40px;
 text-decoration: underline;
 font-stretch:semi-condensed;
 font-weight: lighter;
 color: #e0f0fd;
+font-family:monospace;
 }
 .qw h2{
-padding-left: 590px;
-  font-stretch:semi-condensed;
-  font-weight: lighter;
-  color: #e0f0fd;
+padding-left: 600px;
+font-stretch:semi-condensed;
+font-weight: lighter;
+color: #e0f0fd;
+font-family:monospace;
+font-size: 30px;
 }
 .hola{
-  color:#e0f0fd;
-  font-size:20px;
-  padding-left: 450px;
+  color:whitesmoke;
+	font-size:20px;
+  font-weight: lighter;
+  font-stretch: condensed;
+  padding-left:460px;
 }
 .hola input{
   border-color:#9fc2ff;
   border-style: solid;
   background:none;
   color:cyan;
-  padding:5px;
-  width: 200px;
+  padding:9px;
+  width: 300px;
 }
 .hola select{
   background:#9fc2ff;
   color:black;
-  padding:7px;
+  padding:8px;
   width:10%;
   border:none;
   box-shadow: 0 5px 25px rgba(0,0,0,.5);
@@ -115,16 +118,18 @@ padding-left: 590px;
 .opop{
 background: none;
 color: cyan;
-padding-left:540px;
-padding-top: 30px;
+padding-left:570px;
+padding-top: 20px;
 width:100%;
 height: 25px;
-
+}
+.opop input{
+  width: 270px;
+  padding: 3px;
 }
 .cool{
-  padding-left:630px;
+  padding-left:680px;
   padding-top: 25px;
-
 }
 .cool input{
   background: none;
@@ -136,8 +141,7 @@ height: 25px;
   	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 }
 .cool input:hover{
-  color: pink;
-  border: 1px #4caf50;
+  background:navy;
 }
 ::-webkit-file-upload-button {
   background: none;
@@ -159,6 +163,9 @@ height: 25px;
   padding-left: 30px;
   box-shadow: 0 5px 25px rgba(1,1,1,1.5);
 }
+.kunal a:hover{
+  background: rgba(23,25,95,1);
+}
 .aa a{
   color:Black;
     text-decoration: none;
@@ -167,4 +174,7 @@ height: 25px;
     font-weight:lighter;
     box-shadow: 0 5px 25px rgba(1,1,1,1.5);
     float: right;
+}
+.aa a:hover{
+  background:  rgba(23,205,205,1);
 }
