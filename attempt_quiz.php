@@ -124,7 +124,7 @@ for ($i=0; $i<$nof; $i++) {
 echo "<a href=\"attempt_quiz.php?ques_no=".$n."&quiz_id=".$_GET['quiz_id']."\">".$n."</a>";
 }
 ?>
-<hr style="margin-bottom: 20px">
+<hr style="margin-bottom: 5px">
 <a href="add_marks.php?show=true&quiz_id=<?php echo $_GET['quiz_id'] ?>">Show marks</a>
 </div>
 </body>

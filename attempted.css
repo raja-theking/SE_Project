@@ -22,22 +22,24 @@ table td{
 }
 form{
   color:#009688;
-  margin: 5px;
+  margin:0px;
 }
 form input{
   border-color:#9fc2ff;
   border-style: solid;
   background:none;
-  color:grey;
-border-radius: 10px ;
+  color:navy;
+  border-radius: 10px ;
   padding:5px;
   cursor: pointer;
   font-size: 18px;
 }
-
+.form input:hover{
+  background: navy;
+}
 a{
   text-align: center;
-  color:#795548;
+  color:indigo;
   font-size: 40px;
   padding-left: 120px;
   font-family: sans-serif;
