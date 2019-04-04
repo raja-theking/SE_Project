@@ -100,9 +100,6 @@ $display_block .= "
 
 ?>
 
-
-<!DOCTYPE html>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -122,7 +119,6 @@ else { echo "No More Questions";}
 <br>
 <div style="font-size:30px;color:#795548;">Question No:<br>
 <?php
-
 for ($i=0; $i<$nof; $i++) {
 	$n = $i+1;
 echo "<a href=\"attempt_quiz.php?ques_no=".$n."&quiz_id=".$_GET['quiz_id']."\">".$n."</a>";

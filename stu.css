@@ -21,7 +21,7 @@ h2{
 	font-family:sans-serif;
 }
 .box{
-	margin-left: 570px;
+	margin-left: 540px;
 	width:100px;
 	margin-top:10px;
 	padding-left:9px;
@@ -29,9 +29,10 @@ h2{
 .box select{
 	background:#9fc2ff;
 	color:black;
-	padding:8px;
+	padding:18px;
 	align: center;
-	width:220px;
+  font-size: 15px;
+	width:290px;
 	border:none;
 	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 }
@@ -39,12 +40,12 @@ h2{
 	margin-left: 600px;
 	margin-top:20px;
 	padding-top:10px;
-	padding-left:50px;
+	padding-left:20px;
 }
 .sub input{
 	border: none;
-	width: 80px;
-	font-size: 15px;
+	width: 140px;
+	font-size: 25px;
 	background:none;
 	color:cyan;
 	box-shadow: 0 5px 25px rgba(0,0,0,.5);

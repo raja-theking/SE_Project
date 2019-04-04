@@ -1,5 +1,5 @@
 body{
-  background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
   background-attachment: fixed;
 }
 table{
@@ -67,4 +67,7 @@ a:hover{
     color: #ffffff;
     padding: 2px 0px;
     border-radius: 50px;
+}
+.grid h1:hover{
+  background: black;
 }

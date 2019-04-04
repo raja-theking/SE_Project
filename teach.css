@@ -161,13 +161,15 @@ height: 25px;
   font-style:auto;
   font-weight:lighter;
   padding-left: 30px;
+  color: black;
   box-shadow: 0 5px 25px rgba(1,1,1,1.5);
 }
 .kunal a:hover{
   background: rgba(23,25,95,1);
+  color: white;
 }
 .aa a{
-  color:Black;
+  color:white;
     text-decoration: none;
     font-size: 30px;
     font-style:auto;
@@ -177,4 +179,5 @@ height: 25px;
 }
 .aa a:hover{
   background:  rgba(23,205,205,1);
+  color: black;
 }
