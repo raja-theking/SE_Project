@@ -64,6 +64,7 @@ while ($marks = mysqli_fetch_array($students)) {
 	<link rel="stylesheet" href="last.css">
    </head>
    <body>
+		 <a href="export_file.php?quiz_id=<?php echo $_GET['quiz_id']?>">Export Result</a>
 		 <h1> Marks </h1>
      <?php
      if ($nota>0) {
