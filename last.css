@@ -1,7 +1,4 @@
 body{
-margin: 0;
-padding: 0;
-padding-top:30px;
 background: linear-gradient(90deg,#16bffd,#cb3066);
 font-family: cursive;
 }
@@ -21,8 +18,7 @@ h1{
   text-decoration: underline;
 }
 .ll a{
-  font-size: 20px;
+  font-size: 40px;
   color: navy;
-  text-decoration: none;
-  padding-top: 200px;
+  text-decoration: none;}
 }
