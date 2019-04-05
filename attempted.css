@@ -1,6 +1,6 @@
 body{
-  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
-  background-attachment: fixed;
+background: -webkit-linear-gradient(-135deg, #00ffc100, #e4d4d4);
+background-attachment: fixed;
 }
 table{
   border: 0px solid black;
@@ -9,30 +9,28 @@ table th{
 color:black;
 font-size: 30px;
 width: 500px;
-background-color: #C4FCEF;
 border-radius: 10px;
 }
 table td{
   color: #bfddc5;
   margin: 15px;
   font-size: 30px;
-    border: 0px solid black;
-    color: black;
-    padding: 10px;
+  border: 0px  black;
+  color: black;
 }
 form{
-  color:#009688;
-  margin:0px;
+  color:navy;
+  margin:5px;
 }
 form input{
   border-color:#9fc2ff;
-  border-style: solid;
+  border: none;
+  padding-left: 1000px;
   background:none;
   color:navy;
-  border-radius: 10px ;
-  padding:5px;
+  padding-top: 10px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 38px;
 }
 .form input:hover{
   background: navy;
@@ -41,33 +39,25 @@ a{
   text-align: center;
   color:indigo;
   font-size: 40px;
-  padding-left: 120px;
+  padding-left:30px;
+  padding-top: 10px;
+  margin: 0px;
   font-family: sans-serif;
-  margin-top: : 90px;
   text-decoration: none;
 
 }
 a:hover{
   color: black;
 }
-.grid {
-    width: 900px;
-    height: 500px;
-    margin: 0 auto;
-    background-color: #C4FCEF;
-    padding: 10px 50px 50px 50px;
-    border-radius: 50px;
-    border: 2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #845EC2;
+.an{
+  float:right;
+  padding-right: 80px;
 }
-
 .grid h1 {
     font-family: "sans-serif";
     background-color: #57636e;
     font-size: 60px;
-    text-align: center;
     color: #ffffff;
-    padding: 2px 0px;
     border-radius: 50px;
 }
 .grid h1:hover{

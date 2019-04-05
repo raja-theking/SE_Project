@@ -62,7 +62,7 @@ else {
 			<input type='hidden' name='ans4' value='".$ans4."'>
 			<input type='hidden' name='ques_no' value='".$ques_no."'>
 			<input type='hidden' name='quiz_id' value='".$_GET['quiz_id']."'>
-			<input type='submit'value='submit'>
+			<input type='submit'value='Submit'>
 			</form>
 			</td>
 		</tr>
@@ -85,7 +85,7 @@ else {
 		<input type='hidden' name='ans4' value='".$ans4."'>
 		<input type='hidden' name='ques_no' value='".$ques_no."'>
 		<input type='hidden' name='quiz_id' value='".$_GET['quiz_id']."'>
-		<input type='submit' value='submit'>
+		<input type='submit' value='Submit'>
 		</form>
 		</td>
 		</tr>
@@ -109,7 +109,6 @@ $display_block .= "
 <body>
 <div class="grid">
 <h1 align="center">Quiz</h1>
-<hr style="margin-bottom: 20px">
 <?php
 if($ques_no<=$nof){
 echo $display_block;
@@ -117,14 +116,15 @@ echo $display_block;
 else { echo "No More Questions";}
 ?>
 <br>
-<div style="font-size:30px;color:#795548;">Question No:<br>
+<div style="font-size:30px;color:#795548;">Question No:<br> </div>
 <?php
 for ($i=0; $i<$nof; $i++) {
 	$n = $i+1;
 echo "<a href=\"attempt_quiz.php?ques_no=".$n."&quiz_id=".$_GET['quiz_id']."\">".$n."</a>";
 }
 ?>
-<hr style="margin-bottom: 5px">
+
+<hr style="margin-bottom: 5px"><div class="an">
 <a href="add_marks.php?show=true&quiz_id=<?php echo $_GET['quiz_id'] ?>">Show marks</a>
 </div>
 </body>
