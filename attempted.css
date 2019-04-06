@@ -26,7 +26,8 @@ form input{
   border-color:#9fc2ff;
   border: none;
   padding-left: 1000px;
-  background:none;
+  background: none;
+  border: none;
   color:navy;
   padding-top: 10px;
   cursor: pointer;
