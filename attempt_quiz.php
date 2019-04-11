@@ -104,9 +104,11 @@ $display_block .= "
 <html>
 <head>
 <title>Quizes</title>
+
 <link rel="stylesheet" href="attempted.css">
 </head>
 <body>
+	
 <div class="grid">
 <h1 align="center">Quiz</h1>
 <?php

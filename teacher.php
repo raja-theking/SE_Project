@@ -20,8 +20,10 @@ else {
  <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="teach.css">
+<link rel="icon" type="image/png" href="favicon.ico"/>
 </head>
 <body>
+
   <div class="kunal">
     <h1>Add Quiz Here</h1>
     <form action="add_quiz_id.php" method="get">

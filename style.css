@@ -4,6 +4,7 @@ body{
   padding: 0;
   background: linear-gradient(90deg, #0072ff,#ff0058);
   width: 100%;
+  font-size:1.2em;
   overflow: hidden;
   min-height: 100vh;
 }
@@ -13,25 +14,63 @@ body{
   background: #000;
   background:  linear-gradient(90deg, #0072ff,#ff0058) ;
 }
+.button {
+  border-radius: 2px;
+  background-color: #ff0058;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 16px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  padding-left: 20px;
+}
 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  color: navy;
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+}
 .login-box{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 45%;
+  left: 45%;
+  transform: translate(-40%,-40%);
   color: white;
 }
 .login-box h1{
   float: left;
   font-size: 40px;
   border-bottom: 6px solid #4caf50;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding: 13px 0;
 }
 .login-box h2{
 text-align:center;
 margin-bottom: 20px;
-padding-up: 13px;
+padding:10px;
 }
 .textbox{
   width: 100%;
@@ -52,7 +91,7 @@ padding-up: 13px;
   outline: none;
   background: none;
   color: cyan;
-  font-size: 18px;
+  font-size: 20px;
   width: 80%;
   float: left;
   margin: 0 10px;
