@@ -21,6 +21,7 @@ table td{
 form{
   color:navy;
   margin:5px;
+
 }
 form input{
   border-color:#9fc2ff;
@@ -32,6 +33,7 @@ form input{
   padding-top: 10px;
   cursor: pointer;
   font-size: 38px;
+  display:inline;
 }
 .form input:hover{
   background: navy;
@@ -45,14 +47,13 @@ a{
   margin: 0px;
   font-family: sans-serif;
   text-decoration: none;
-
 }
 a:hover{
   color: black;
 }
 .an{
   float:right;
-  padding-right: 80px;
+  padding-right: 50px;
 }
 .grid h1 {
     font-family: "sans-serif";

@@ -87,21 +87,27 @@ $login_res = mysqli_query($con, $quiz_id_sql) or die(mysqli_error($con));
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Marks</title>
 <link rel="stylesheet" href="mark.css">
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
 	</head>
 	<body>
 	</br>
 	<div class="qq">
-		<h1> Your Marks </h1>
+		<h1> Your Marks ! </h1>
 	</div>
 <div class="ab">
  <?php
-                echo "Total marks are ".$total_marks;?>
-</div>
-<div class="pp">
-		<a href="student.php">Go Back</a>
+echo "Total marks are ".$total_marks;?>
 </div>
 
+<div class="wrapper-inner-tab">
+<div class="wrapper-inner-tab-backgrounds">
+<div class="wrapper-inner-tab-backgrounds-first"><a href="student.php" style="text-decoration:none;"><div class="sim-button button28"><span>Go Back</span></div></div>
+<div class="wrapper-inner-tab-backgrounds-second"><a href="logout.php" style="text-decoration:none;"><div class="sim-button button28"><span>Logout</span></div></div>
+</div>
+
+</div>
 </body>
 </html>

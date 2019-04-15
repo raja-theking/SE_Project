@@ -63,17 +63,33 @@ while ($marks = mysqli_fetch_array($students)) {
      <title>Results</title>
 	<link rel="stylesheet" href="last.css">
    </head>
+	 <h1> Marks </h1>
    <body>
-		 <div class="ll">
-		 <a href="export_file.php?quiz_id=<?php echo $_GET['quiz_id']?>">Export Result</a> </div>
-		 <h1> Marks </h1>
-     <?php
-     if ($nota>0) {
-       echo $display_block;
-     }
-     else {
-       echo "No attempts yet..";
-     }
-     ?>
-   </body>
+		 <div class="kl">
+		 <?php
+		 if ($nota>0) {
+		 	echo $display_block;
+		 }
+		 else {
+		 	echo "No attempts yet..";
+		 }
+		 ?>
+</div>
+
+<!--		<a href="export_file.php?quiz_id=<?php echo $_GET['quiz_id']?>">Export Result</a> </div> -->
+<div class="wrapper-inner-tab">
+<div class="wrapper-inner-tab-backgrounds">
+<div class="wrapper-inner-tab-backgrounds-first"><a href="logout.php" style="text-decoration:none;"><div class="sim-button button1"><span>Logout</span>
+</div></a></div>
+</div>
+</div>
+
+<div class="kk">
+<div class="pk">
+<div class="rk"><a href="export_file.php?quiz_id=<?php echo $_GET['quiz_id']?>" style="text-decoration:none;"><div class="sim-button button13"><span>Export Result</span>
+</div></a></div>
+</div>
+</div>
+    </div>
+	 </body>
  </html>

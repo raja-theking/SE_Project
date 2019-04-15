@@ -108,7 +108,7 @@ $display_block .= "
 <link rel="stylesheet" href="attempted.css">
 </head>
 <body>
-	
+
 <div class="grid">
 <h1 align="center">Quiz</h1>
 <?php
@@ -118,6 +118,8 @@ echo $display_block;
 else { echo "No More Questions";}
 ?>
 <br>
+<hr style="margin-bottom: 5px; ">
+
 <div style="font-size:30px;color:#795548;">Question No:<br> </div>
 <?php
 for ($i=0; $i<$nof; $i++) {
@@ -126,7 +128,7 @@ echo "<a href=\"attempt_quiz.php?ques_no=".$n."&quiz_id=".$_GET['quiz_id']."\">"
 }
 ?>
 
-<hr style="margin-bottom: 5px"><div class="an">
+<div class="an">
 <a href="add_marks.php?show=true&quiz_id=<?php echo $_GET['quiz_id'] ?>">Show marks</a>
 </div>
 </body>

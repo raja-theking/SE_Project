@@ -35,6 +35,7 @@ else {
 
 		$display_block .= "
 		<tr>
+		<div class=\"pp\">
 			<td> Quiz ID : ".$quiz_id."<br>About Quiz : ".$quiz_info."<br/>
 				By Teacher : ".$teacher_id."<br/>
 				<a href='confirm_quiz.php?quiz_id=".$quiz_id."'>Attempt</a>
@@ -42,6 +43,7 @@ else {
       <td>
           ".$nota."
 			</td>
+		</div>
 		</tr>
 		";
 
@@ -57,10 +59,17 @@ $display_block .= "
 <head>
 <title>Quizes</title>
 <link rel="stylesheet" href="see.css">
+<link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
 </head>
 <body>
 
-<h1 align="center">Attempt Any Quiz</h1>
+<h1 align="center">&#9827; Attempt Any Quiz &#9827;</h1>
 <?php echo $display_block; ?>
+<div>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
 </body>
 </html>

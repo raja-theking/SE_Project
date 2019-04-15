@@ -12,6 +12,7 @@ $teacher_quizes_sql = "SELECT * FROM quiz_info where teacher_id = '".$_SESSION['
 $teacher_quiz = mysqli_query($con, $teacher_quizes_sql) or die(mysqli_error($con));
 
 $display_block = "
+
 <table cellpadding = \"3\" cellspacing = \"1\" border = \"1\" align=\"center\" width=\"50%\">
 <tr>
 <th>Quiz ID</th>
@@ -19,6 +20,7 @@ $display_block = "
 <th>Quiz Info</th>
 <th>Results</th>
 </tr>";
+
 
 while ($quizes = mysqli_fetch_array($teacher_quiz)) {
     $quiz_id = $quizes["quiz_id"];
@@ -54,12 +56,13 @@ $display_block .= "
     <meta charset="utf-8">
     <title> Quiz Results</title>
 		<link rel="stylesheet" href="Res.css">
+		<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
 		  </head>
 <body>
 	<div class="kunal">
 		<h1 align="center">Your Quizes</h1>
 			<?php echo $display_block; ?>
-	</div>
 
   </body>
 </html>
