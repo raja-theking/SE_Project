@@ -21,10 +21,13 @@
 
 		if ($_POST['pass']==$pass) {
 			$_SESSION['id'] = $_POST['user'];
+
     if($_POST['type']=='teacher'){
+				$_SESSION['type'] = "teacher";
       	header("Location: Teacher.php");
 			}
 	 elseif ($_POST['type']=='student'){
+		      $_SESSION['type'] = "student";
 	      	header("Location: Student.php");
 			}
 		}

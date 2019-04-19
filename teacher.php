@@ -4,10 +4,12 @@ include("connect.php");
 doDB();
 session_start();
 
-if (!isset($_SESSION['id'])) {
+if (!isset($_SESSION['id']) or $_SESSION['type'] != "teacher") {
 	header("Location: index.html");
 	exit();
 }
+
+
 
 else {
   echo "<div style=\"color:white;\">Welcome ".$_SESSION['id']."</div>";

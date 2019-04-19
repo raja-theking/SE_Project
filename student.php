@@ -3,7 +3,7 @@ include("connect.php");
 doDB();
 session_start();
 
-if (!isset($_SESSION['id'])) {
+if (!isset($_SESSION['id'])  or $_SESSION['type'] != "student") {
 	header("Location: index.html");
 	exit();
 }
