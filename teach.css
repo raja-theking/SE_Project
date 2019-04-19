@@ -14,7 +14,7 @@ animation: Gradient 15s ease infinite;
   font-stretch:semi-condensed;
   font-weight: lighter;
   font-size: 25px;
- font-family: 'Merienda';
+   font-family: 'Merienda';
   padding-bottom: 10px;
 }
 
@@ -52,8 +52,8 @@ animation: Gradient 15s ease infinite;
   box-shadow: 0 5px 25px rgba(0,0,0,.5);
 }
 .new{
-  padding-top: 290px;
-  padding-left: 450px;
+  padding-top: 310px;
+  padding-left: 477px;
   margin-top: 40px;
 
 }
@@ -101,7 +101,7 @@ padding-left: 10px;
 font-stretch:semi-condensed;
 font-weight: lighter;
 color: white;
-font-family:monospace;
+ font-family: 'Merienda';
 font-size: 30px;
 }
 .hola{
@@ -208,8 +208,8 @@ height: 25px;
   color: black;
 }
 .yoyo{
-  margin-top: 320px;
-  margin-left: 470px;
+  margin-top: 340px;
+  margin-left: 493px;
   background: none;
   color: cyan;
   align:center;

@@ -62,6 +62,8 @@ while ($marks = mysqli_fetch_array($students)) {
      <meta charset="utf-8">
      <title>Results</title>
 	<link rel="stylesheet" href="last.css">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
    </head>
 	 <h1> Marks </h1>
    <body>
