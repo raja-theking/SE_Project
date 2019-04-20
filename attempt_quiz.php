@@ -104,7 +104,8 @@ $display_block .= "
 <html>
 <head>
 <title>Quizes</title>
-
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
 <link rel="stylesheet" href="attempted.css">
 </head>
 <body>
@@ -115,7 +116,9 @@ $display_block .= "
 if($ques_no<=$nof){
 echo $display_block;
 }
-else { echo "No More Questions";}
+else {
+	echo "<div style=\"font-size:30px; font-family: Merienda; text-align:center;\">No More Questions" ."</div>";
+}
 ?>
 <br>
 <hr style="margin-bottom: 5px; ">
@@ -128,8 +131,14 @@ echo "<a href=\"attempt_quiz.php?ques_no=".$n."&quiz_id=".$_GET['quiz_id']."\">"
 }
 ?>
 
-<div class="an">
+<!--<div class="an">
 <a href="add_marks.php?show=true&quiz_id=<?php echo $_GET['quiz_id'] ?>">Show marks</a>
+</div> -->
+<div class="raju">
+<div class="pk">
+<div class="rk"><a href="add_marks.php?show=true&quiz_id=<?php echo $_GET['quiz_id'] ?>" style="text-decoration:none;"><div class="sim-button button13"><span>Show Marks</span>
+</div></a></div>
+</div>
 </div>
 </body>
 </html>

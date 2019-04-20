@@ -11,6 +11,8 @@ $quiz_id = $_GET['quiz_id'];
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="ques.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
     </head>
     <body>
       <div class="add">
@@ -34,8 +36,13 @@ $quiz_id = $_GET['quiz_id'];
 
       <input type="submit" value="Add"> <br>
       </div>
-     </form><a href="teacher.php">DONE</a>
-	   </div>
-
+     </form>
+    </div>
+    <div class="raju">
+   <div class="pk">
+   <div class="rk"><a href="teacher.php" style="text-decoration:none;"><div class="sim-button button13"><span>Done</span>
+   </div></a></div>
+   </div>
+   </div>
     </body>
 </html>

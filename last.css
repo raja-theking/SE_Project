@@ -1,28 +1,42 @@
 body{
-background: linear-gradient(90deg,#16bffd,#cb3066);
+background:#23A6D5; 
 min-height:100vh;
 }
 table{
-  border-collapse: collapse;
+  width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
-th, td {
-  border-bottom: 1px solid #ddd;
-  padding: 15px;
+table th{
+  color:black;
+  font-weight:bold;
+  font-family: Alegreya Sans SC;
+  text-align: left;
+  font-size: 24px;
+  text-align:center;
+  padding:15px;
+  background-color: rgba(255,255,255,0.2);
+  color: #fff;
 }
-tr:hover {
-  background-color: #D8BFD8;
+table td{
+padding: 15px;
+margin: 5px;
+font-family:Merienda;
+font-size: 20spx;
+color: black;
+
 }
+
 h1{
   text-align: center;
   font-family:Merienda;
-  text-decoration: underline;
-
 }
 .wrapper-inner-tab{
   position: fixed;
 	float: left;
 	width:30%;
-	margin-top:320px;
+	margin-top:350px;
   text-decoration: none;
 }
 .wrapper-inner-tab-backgrounds {
@@ -98,7 +112,7 @@ h1{
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 145px;
-	width: 60%;
+	width: 70%;
   font-size: 30px;
   font-family: Alegreya Sans SC;
   background:rebeccapurple;
